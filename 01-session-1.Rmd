@@ -33,7 +33,7 @@ Approximately 20,000 people in the UK have this diagnosis – but it could be mo
 
 `r embed_youtube("MR36OORCM8c", width = 475, height = 275) %>% use_start_time("0m0s")`
 
-# The traffic light system {-}
+## The traffic light system {-}
 ### Amber {-}
 
 `r paste(lorem::ipsum(sentences = 3))`
@@ -58,7 +58,7 @@ Approximately 20,000 people in the UK have this diagnosis – but it could be mo
 
 `r embed_youtube("gVNSWk0Xsm4", width = 475, height = 275) %>% use_start_time("0m0s")`
 
-# Session one Homework {-}
+## Session one Homework {-}
 
 `r paste(lorem::ipsum(sentences = 3))`
 
