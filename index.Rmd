@@ -27,9 +27,12 @@ library(vembedr)
 ```
 
 # Introduction {-}
+`r paste(lorem::ipsum(sentences = 3))`
 
 ## Welcome to the course! {-}
+`r paste(lorem::ipsum(sentences = 3))`
 
 ## Before we get started {-}
+`r paste(lorem::ipsum(sentences = 3))`
 
 `r embed_youtube("zZv9XVC0DSA", width = 475, height = 275) %>% use_start_time("0m04s")`

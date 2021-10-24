@@ -1,8 +1,4 @@
-introduction-1
-literature
-methods
-math-example
-applications
-example-one
-example-two
-final-words
+getting-started
+section
+section-1
+section-2

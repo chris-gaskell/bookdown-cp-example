@@ -1,12 +1,18 @@
-# Introduction
+# Getting Started
 
 This is the first session for the NEAD course!
 
+`r paste(lorem::ipsum(sentences = 3))`
+
 ## Introduction to session 1 {-}
+
+`r paste(lorem::ipsum(sentences = 3))`
 
 `r embed_youtube("VEjOWxTw-v0&list", width = 475, height = 275) %>% use_start_time("0m04s")`
 
 ### Making an anchor {-}
+
+`r paste(lorem::ipsum(sentences = 3))`
 
 `r embed_youtube("8zp2yICvLvs", width = 475, height = 275) %>% use_start_time("0m0s")`
 
@@ -23,28 +29,50 @@ Approximately 20,000 people in the UK have this diagnosis – but it could be mo
 
 ## Ground Exercises {-}
 
+`r paste(lorem::ipsum(sentences = 3))`
+
 `r embed_youtube("MR36OORCM8c", width = 475, height = 275) %>% use_start_time("0m0s")`
 
-## The traffic light system {-}
+# The traffic light system {-}
 ### Amber {-}
+
+`r paste(lorem::ipsum(sentences = 3))`
+
 `r embed_youtube("TgN1qXsvShU", width = 475, height = 275) %>% use_start_time("0m0s")`
 
 ### Red {-}
+
+`r paste(lorem::ipsum(sentences = 3))`
+
 `r embed_youtube("DdOZg9-8rdE", width = 475, height = 275) %>% use_start_time("0m0s")`
 
 ### Green {-}
+
+`r paste(lorem::ipsum(sentences = 3))`
+
 `r embed_youtube("Fy9IH0bnAx8", width = 475, height = 275) %>% use_start_time("0m0s")`
 
 ### Noticing {-}
+
+`r paste(lorem::ipsum(sentences = 3))`
+
 `r embed_youtube("gVNSWk0Xsm4", width = 475, height = 275) %>% use_start_time("0m0s")`
 
-## Practices {-}
+# Session one Homework {-}
+
+`r paste(lorem::ipsum(sentences = 3))`
 
 `r embed_youtube("oz97p0y5MeA", width = 475, height = 275) %>% use_start_time("0m0s")`
 
+`r paste(lorem::ipsum(sentences = 3))`
+
 `r embed_youtube("BX0D-8FBqMM", width = 475, height = 275) %>% use_start_time("0m0s")`
 
+`r paste(lorem::ipsum(sentences = 3))`
+
 `r embed_youtube("hVc5rqY6wzg", width = 475, height = 275) %>% use_start_time("0m0s")`
+
+`r paste(lorem::ipsum(sentences = 3))`
 
 `r embed_youtube("zVIOWVfTs", width = 475, height = 275) %>% use_start_time("0m0s")`
 
