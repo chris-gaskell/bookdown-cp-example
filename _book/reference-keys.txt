@@ -1,7 +1,4 @@
 getting-started
-section
-section-1
-section-2
 using-the-zones
 getting-to-the-green-zone
 making-a-nead-personal-plan

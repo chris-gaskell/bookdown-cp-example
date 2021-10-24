@@ -32,7 +32,7 @@
   
   
 <link rel="prev" href="the-traffic-light-system.html"/>
-<link rel="next" href="section.html"/>
+<link rel="next" href="using-the-zones.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -56,6 +56,68 @@
 <script src="libs/font-awesome-5.13.0/js/script.js"></script>
 
 
+<style type="text/css">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
 
 
 <link rel="stylesheet" href="style.css" type="text/css" />
@@ -92,9 +154,9 @@
 <li class="chapter" data-level="" data-path="the-traffic-light-system.html"><a href="the-traffic-light-system.html#noticing"><i class="fa fa-check"></i>Noticing</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="session-one-homework.html"><a href="session-one-homework.html"><i class="fa fa-check"></i>Session one Homework</a></li>
-<li class="chapter" data-level="2" data-path="section.html"><a href="section.html"><i class="fa fa-check"></i><b>2</b> ….</a></li>
-<li class="chapter" data-level="3" data-path="section-1.html"><a href="section-1.html"><i class="fa fa-check"></i><b>3</b> ….</a></li>
-<li class="chapter" data-level="4" data-path="section-2.html"><a href="section-2.html"><i class="fa fa-check"></i><b>4</b> ….</a></li>
+<li class="chapter" data-level="2" data-path="using-the-zones.html"><a href="using-the-zones.html"><i class="fa fa-check"></i><b>2</b> Using the zones</a></li>
+<li class="chapter" data-level="3" data-path="getting-to-the-green-zone.html"><a href="getting-to-the-green-zone.html"><i class="fa fa-check"></i><b>3</b> Getting to the green zone</a></li>
+<li class="chapter" data-level="4" data-path="making-a-nead-personal-plan.html"><a href="making-a-nead-personal-plan.html"><i class="fa fa-check"></i><b>4</b> Making a NEAD personal plan</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
 
@@ -117,25 +179,25 @@
             <section class="normal" id="section-">
 <div id="session-one-homework" class="section level1 unnumbered">
 <h1>Session one Homework</h1>
-<p>Adipiscing nisi donec ante primis netus tellus faucibus per sodales praesent? Ante orci cursus tincidunt faucibus convallis pulvinar curabitur magnis commodo ornare facilisis massa. Rhoncus aenean mattis netus sed etiam ante nec vestibulum sociosqu sodales duis!</p>
+<p>Ipsum molestie nulla ornare ultrices mauris sociis natoque mus nam? Cum vivamus morbi a natoque ridiculus lacus! Etiam fringilla fames cum augue placerat class non imperdiet dis hendrerit lectus habitant porttitor?</p>
 <div class="vembedr">
 <div>
 <iframe src="https://www.youtube.com/embed/oz97p0y5MeA?start=0" width="475" height="275" frameborder="0" allowfullscreen=""></iframe>
 </div>
 </div>
-<p>Elit vel venenatis dui class nunc facilisis integer penatibus tortor sapien nam sodales fringilla at? Pulvinar vivamus dictumst vivamus ut fringilla feugiat molestie vehicula vivamus vulputate cursus aptent volutpat! Congue fames netus phasellus parturient tempor mus.</p>
+<p>Sit himenaeos suscipit justo semper augue dictum a blandit metus laoreet. Senectus faucibus dui nunc at eget nullam ad curae at eleifend. In luctus posuere hendrerit interdum erat purus pretium.</p>
 <div class="vembedr">
 <div>
 <iframe src="https://www.youtube.com/embed/BX0D-8FBqMM?start=0" width="475" height="275" frameborder="0" allowfullscreen=""></iframe>
 </div>
 </div>
-<p>Ipsum curabitur arcu nullam cursus eros tempus rutrum pretium. Praesent auctor vestibulum laoreet vivamus mattis dictum nec! Mauris etiam bibendum suspendisse magna nullam dapibus libero montes lobortis ut habitant fames primis nulla ut nostra sagittis enim himenaeos dapibus pulvinar phasellus.</p>
+<p>Elit dictumst nibh dictumst class. Facilisis pretium laoreet curae nulla porta fames quis cubilia? Porttitor imperdiet sem purus ridiculus vehicula ultricies sociis nibh dictum leo pulvinar quis semper etiam imperdiet sodales dui magnis.</p>
 <div class="vembedr">
 <div>
 <iframe src="https://www.youtube.com/embed/hVc5rqY6wzg?start=0" width="475" height="275" frameborder="0" allowfullscreen=""></iframe>
 </div>
 </div>
-<p>Consectetur primis quis semper tincidunt elementum ad consequat metus libero. Scelerisque gravida gravida accumsan risus ac vestibulum velit mollis tristique lectus nulla suscipit proin. Lobortis habitasse primis etiam sem curae purus.</p>
+<p>Consectetur accumsan quisque accumsan scelerisque erat vestibulum magnis a turpis fermentum. Ligula sollicitudin ut quis ad litora metus laoreet non consequat phasellus. Tellus neque primis risus rhoncus felis rhoncus ante.</p>
 <div class="vembedr">
 <div>
 <iframe src="https://www.youtube.com/embed/zVIOWVfTs?start=0" width="475" height="275" frameborder="0" allowfullscreen=""></iframe>
@@ -149,7 +211,7 @@
         </div>
       </div>
 <a href="the-traffic-light-system.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="section.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="using-the-zones.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
