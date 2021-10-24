@@ -48,7 +48,7 @@ Approximately 20,000 people in the UK have this diagnosis – but it could be mo
 
 `r embed_youtube("zVIOWVfTs", width = 475, height = 275) %>% use_start_time("0m0s")`
 
-```{r, echo=F}
+```{r, echo=F, include = F}
 downloadthis::download_file(
   path = "files/session-1.pdf",
   output_name = "Session 1 Handout",
@@ -58,6 +58,5 @@ downloadthis::download_file(
   icon = "fa fa-save",
   self_contained = FALSE
 )
-
 ```
 
