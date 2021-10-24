@@ -1,21 +1,63 @@
-# Test {#intro}
+# Introduction
 
-You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
+This is the first session for the NEAD course!
 
-Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
+## Introduction to session 1 {-}
 
-```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
-par(mar = c(4, 4, .1, .1))
-plot(pressure, type = 'b', pch = 19)
-```
+`r embed_youtube("VEjOWxTw-v0&list", width = 475, height = 275) %>% use_start_time("0m04s")`
 
-Reference a figure by its code chunk label with the `fig:` prefix, e.g., see Figure \@ref(fig:nice-fig). Similarly, you can reference tables generated from `knitr::kable()`, e.g., see Table \@ref(tab:nice-tab).
+### Making an anchor {-}
 
-```{r nice-tab, tidy=FALSE}
-knitr::kable(
-  head(iris, 20), caption = 'Here is a nice table!',
-  booktabs = TRUE
+`r embed_youtube("8zp2yICvLvs", width = 475, height = 275) %>% use_start_time("0m0s")`
+
+## What is NEAD? {-}
+
+People with Non-Epileptic Attack Disorder (NEAD) experience episodes of temporary loss of control. During a NEAD episode people can experience symptoms that affect movement (e.g. shaking or falling) as well as changes to their senses (e.g. hearing, vision, taste and smell). Symptoms can also affect awareness (such as feeling confused, being unresponsive or blacking out). NEAD is a natural response to danger and is not an indication that something is medically wrong or that there is damage to the brain or nervous system. Different people experience different symptoms and NEAD symptoms often change over time.
+
+Like many conditions, there are multiple terms used to describe the same experience. Some of the terms that you may have heard: Psychogenic seizures, 
+Psychogenic non-epileptic seizures (PNES), Dissociative seizures, Conversion disorder, Functional seizures and Psychological seizures.
+
+Approximately 20,000 people in the UK have this diagnosis – but it could be more. 1 out of every 5 people who see a doctor because of seizures go on to have a diagnosis of NEAD.
+
+`r embed_youtube("i8Dlr22bmSM", width = 475, height = 275) %>% use_start_time("0m0s")`
+
+## Ground Exercises {-}
+
+`r embed_youtube("MR36OORCM8c", width = 475, height = 275) %>% use_start_time("0m0s")`
+
+## The traffic light system {-}
+### Amber {-}
+`r embed_youtube("TgN1qXsvShU", width = 475, height = 275) %>% use_start_time("0m0s")`
+
+### Red {-}
+`r embed_youtube("DdOZg9-8rdE", width = 475, height = 275) %>% use_start_time("0m0s")`
+
+### Green {-}
+`r embed_youtube("Fy9IH0bnAx8", width = 475, height = 275) %>% use_start_time("0m0s")`
+
+### Noticing {-}
+`r embed_youtube("gVNSWk0Xsm4", width = 475, height = 275) %>% use_start_time("0m0s")`
+
+## Practices {-}
+
+`r embed_youtube("oz97p0y5MeA", width = 475, height = 275) %>% use_start_time("0m0s")`
+
+`r embed_youtube("BX0D-8FBqMM", width = 475, height = 275) %>% use_start_time("0m0s")`
+
+`r embed_youtube("hVc5rqY6wzg", width = 475, height = 275) %>% use_start_time("0m0s")`
+
+`r embed_youtube("zVIOWVfTs", width = 475, height = 275) %>% use_start_time("0m0s")`
+
+```{r, echo=F}
+downloadthis::download_file(
+  path = "files/session-1.pdf",
+  output_name = "Session 1 Handout",
+  button_label = "Session 1 Handout",
+  button_type = "danger",
+  has_icon = TRUE,
+  icon = "fa fa-save",
+  self_contained = FALSE
 )
+
 ```
 
-You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@xie2015].

@@ -1,0 +1,158 @@
+--- 
+title: "Non-Epileptic Attack Disorder - Guided Self-Help"
+author: "Chris Gaskell"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+description: "This is a demonstration of bookdown for CP"
+---
+```{r eval=FALSE}
+install.packages("bookdown")
+# or the development version
+# devtools::install_github("rstudio/bookdown")
+```
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
+```{r libs}
+library(vembedr)
+```
+
+# Introduction {-}
+
+## Welcome to the course! {-}
+
+## Before we get started {-}
+
+`r embed_youtube("zZv9XVC0DSA", width = 475, height = 275) %>% use_start_time("0m04s")`
+
+<!--chapter:end:index.Rmd-->
+
+# Introduction
+
+This is the first session for the NEAD course!
+
+## Introduction to session 1 {-}
+
+`r embed_youtube("VEjOWxTw-v0&list", width = 475, height = 275) %>% use_start_time("0m04s")`
+
+### Making an anchor {-}
+
+`r embed_youtube("8zp2yICvLvs", width = 475, height = 275) %>% use_start_time("0m0s")`
+
+## What is NEAD? {-}
+
+People with Non-Epileptic Attack Disorder (NEAD) experience episodes of temporary loss of control. During a NEAD episode people can experience symptoms that affect movement (e.g. shaking or falling) as well as changes to their senses (e.g. hearing, vision, taste and smell). Symptoms can also affect awareness (such as feeling confused, being unresponsive or blacking out). NEAD is a natural response to danger and is not an indication that something is medically wrong or that there is damage to the brain or nervous system. Different people experience different symptoms and NEAD symptoms often change over time.
+
+Like many conditions, there are multiple terms used to describe the same experience. Some of the terms that you may have heard: Psychogenic seizures, 
+Psychogenic non-epileptic seizures (PNES), Dissociative seizures, Conversion disorder, Functional seizures and Psychological seizures.
+
+Approximately 20,000 people in the UK have this diagnosis – but it could be more. 1 out of every 5 people who see a doctor because of seizures go on to have a diagnosis of NEAD.
+
+`r embed_youtube("i8Dlr22bmSM", width = 475, height = 275) %>% use_start_time("0m0s")`
+
+## Ground Exercises {-}
+
+`r embed_youtube("MR36OORCM8c", width = 475, height = 275) %>% use_start_time("0m0s")`
+
+## The traffic light system {-}
+### Amber {-}
+`r embed_youtube("TgN1qXsvShU", width = 475, height = 275) %>% use_start_time("0m0s")`
+
+### Red {-}
+`r embed_youtube("DdOZg9-8rdE", width = 475, height = 275) %>% use_start_time("0m0s")`
+
+### Green {-}
+`r embed_youtube("Fy9IH0bnAx8", width = 475, height = 275) %>% use_start_time("0m0s")`
+
+### Noticing {-}
+`r embed_youtube("gVNSWk0Xsm4", width = 475, height = 275) %>% use_start_time("0m0s")`
+
+## Practices {-}
+
+`r embed_youtube("oz97p0y5MeA", width = 475, height = 275) %>% use_start_time("0m0s")`
+
+`r embed_youtube("BX0D-8FBqMM", width = 475, height = 275) %>% use_start_time("0m0s")`
+
+`r embed_youtube("hVc5rqY6wzg", width = 475, height = 275) %>% use_start_time("0m0s")`
+
+`r embed_youtube("zVIOWVfTs", width = 475, height = 275) %>% use_start_time("0m0s")`
+
+```{r, echo=F}
+downloadthis::download_file(
+  path = "files/session-1.pdf",
+  output_name = "Session 1 Handout",
+  button_label = "Session 1 Handout",
+  button_type = "danger",
+  has_icon = TRUE,
+  icon = "fa fa-save",
+  self_contained = FALSE
+)
+
+```
+
+
+<!--chapter:end:01-intro.Rmd-->
+
+# Literature
+
+Here is a review of existing methods.
+
+<!--chapter:end:02-literature.Rmd-->
+
+# Methods
+
+We describe our methods in this chapter.
+
+Math can be added in body using usual syntax like this 
+
+## math example
+
+$p$ is unknown but expected to be around 1/3. Standard error will be approximated
+
+$$
+SE = \sqrt(\frac{p(1-p)}{n}) \approx \sqrt{\frac{1/3 (1 - 1/3)} {300}} = 0.027
+$$
+
+You can also use math in footnotes like this^[where we mention $p = \frac{a}{b}$].
+
+We will approximate standard error to 0.027[^longnote]
+
+[^longnote]: $p$ is unknown but expected to be around 1/3. Standard error will be approximated
+
+    $$
+    SE = \sqrt(\frac{p(1-p)}{n}) \approx \sqrt{\frac{1/3 (1 - 1/3)} {300}} = 0.027
+    $$
+
+<!--chapter:end:03-method.Rmd-->
+
+# Applications
+
+Some _significant_ applications are demonstrated in this chapter.
+
+## Example one
+
+## Example two
+
+<!--chapter:end:04-application.Rmd-->
+
+# Final Words
+
+We have finished a nice book.
+
+<!--chapter:end:05-summary.Rmd-->
+
+`r if (knitr:::is_html_output()) '
+# References {-}
+'`
+
+<!--chapter:end:06-references.Rmd-->
+
